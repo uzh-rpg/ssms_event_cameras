@@ -1,0 +1,3 @@
+python RVT/train.py model=rnndet dataset=gen1 dataset.path=/data/scratch1/nzubic/datasets/RVT/gen1 wandb.project_name=ssms_event_cameras \
+wandb.group_name=gen1 +experiment/gen1=small.yaml hardware.gpus=0 batch_size.train=8 batch_size.eval=8 hardware.num_workers.train=24 \
+hardware.num_workers.eval=8

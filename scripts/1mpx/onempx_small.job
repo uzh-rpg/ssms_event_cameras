@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#SBATCH --ntasks-per-node=2
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=8G
+#SBATCH --time=78:00:00
+#SBATCH --gres=gpu:2  # The GPU model is optional, you can simply specify 'gpu:1'
+#SBATCH --constraint=GPUMEM80GB  # This constraint is optional if you don't care about VRAM
+#SBATCH --output=final_outputs/onempx_small_2.txt
+
+module load gpu cuda
+srun onempx_small.bash

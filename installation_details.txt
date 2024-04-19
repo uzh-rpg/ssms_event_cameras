@@ -1,0 +1,4 @@
+conda create -y -n events_signals python=3.11
+conda activate events_signals
+conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia (Stable (2.2.1))
+pip install lightning wandb pandas plotly opencv-python tabulate pycocotools bbox-visualizer StrEnum hydra-core einops torchdata tqdm numba h5py hdf5plugin lovely-tensors tensorboardX pykeops scikit-learn    
