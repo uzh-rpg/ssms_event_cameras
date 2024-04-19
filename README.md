@@ -21,9 +21,9 @@ If you find this work and/or code useful, please consider citing our paper:
 ```
 
 ## SSM-ViT
-- S5 model used in our SSM-ViT pipeline can be seen [here](https://github.com/NikolaZubic/ssms_event_cameras/tree/master/RVT/models/layers/s5).
-- In particular, S5 is used instead of RNN in a 4-stage hierarchical ViT backbone, and its forward function is exposed [here](https://github.com/NikolaZubic/ssms_event_cameras/blob/master/RVT/models/detection/recurrent_backbone/maxvit_rnn.py#L245). What is nice about this approach is that we do not need a 'for' loop over sequence dimension, but instead we employ a parallel scanning algorithm. This model assumes that a hidden state is being carried over.
-- For a model that is standalone, and can be used for any sequence modeling problem, one does not use by default this formulation where we carry on the hidden state. The implementation is the same as the original JAX implementation and can be downloaded in zip format from [ssms_event_cameras/RVT/models/s5.zip](https://github.com/NikolaZubic/ssms_event_cameras/raw/master/RVT/models/s5.zip).
+- S5 model used in our SSM-ViT pipeline can be seen [here](https://github.com/uzh-rpg/ssms_event_cameras/tree/master/RVT/models/layers/s5).
+- In particular, S5 is used instead of RNN in a 4-stage hierarchical ViT backbone, and its forward function is exposed [here](https://github.com/uzh-rpg/ssms_event_cameras/blob/master/RVT/models/detection/recurrent_backbone/maxvit_rnn.py#L245). What is nice about this approach is that we do not need a 'for' loop over sequence dimension, but instead we employ a parallel scanning algorithm. This model assumes that a hidden state is being carried over.
+- For a model that is standalone, and can be used for any sequence modeling problem, one does not use by default this formulation where we carry on the hidden state. The implementation is the same as the original JAX implementation and can be downloaded in zip format from [ssms_event_cameras/RVT/models/s5.zip](https://github.com/uzh-rpg/ssms_event_cameras/raw/master/RVT/models/s5.zip).
 
 ## Installation
 ### Conda
@@ -78,7 +78,7 @@ You may also pre-process the dataset yourself by following the [instructions](ht
 </tbody></table>
 
 ## Evaluation
-- Evaluation scripts with concrete parameters that we trained our models can be seen [here](https://github.com/NikolaZubic/ssms_event_cameras/tree/master/scripts).
+- Evaluation scripts with concrete parameters that we trained our models can be seen [here](https://github.com/uzh-rpg/ssms_event_cameras/tree/master/scripts).
 - Set `DATA_DIR` as the path to either the 1 Mpx or Gen1 dataset directory
 - Set `CKPT_PATH` to the path of the *correct* checkpoint matching the choice of the model and dataset
 - Set
@@ -107,7 +107,7 @@ Evaluation should give the same results as shown below:
 - 47.7 and 47.8 mAP on Gen1 and 1 Mpx datasets for the base model, and
 - 46.6 and 46.5 mAP on Gen1 and 1 Mpx datasets for the small model.
 <p align="center">
-  <img src="https://github.com/NikolaZubic/ssms_event_cameras/blob/master/scripts/checkpoints.png">
+  <img src="https://github.com/uzh-rpg/ssms_event_cameras/blob/master/scripts/checkpoints.png">
 </p>
 
 ## Training
