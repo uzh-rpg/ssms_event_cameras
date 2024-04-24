@@ -9,7 +9,7 @@ This is the official PyTorch implementation of the CVPR 2024 paper [State Space 
 * **` April. 19th, 2024`**: The code along with the best checkpoints is released! The poster and video will be released shortly before CVPR 2024.
 
 ## Citation
-If you find this work and/or code useful, please consider citing our paper:
+If you find this work and/or code useful, please cite our paper:
 
 ```bibtex
 @InProceedings{Zubic_2024_CVPR,
