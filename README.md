@@ -1,12 +1,14 @@
 # State Space Models for Event Cameras (Spotlight)
 <p align="center">
-  <img src="https://github.com/uzh-rpg/ssms_event_cameras/blob/master/scripts/zubic_cvpr2024_youtube.png">
+ <a href="https://www.youtube.com/watch?v=WRZZJn6Me9M">
+  <img src="https://github.com/uzh-rpg/ssms_event_cameras/blob/master/scripts/zubic_cvpr2024_youtube.png" alt="youtube_video"/>
+ </a>
 </p>
 
 This is the official PyTorch implementation of the CVPR 2024 paper [State Space Models for Event Cameras](https://arxiv.org/abs/2402.15584).
-To watch our video, simply click on the YouTube play button above.
 
 ## :white_check_mark: Updates
+* **` June. 6st, 2024`**: Video released! To watch our video, simply click on the YouTube play button above.
 * **` June. 1st, 2024`**: Our CVPR conference paper has also been accepted as a Spotlight presentation at "The 3rd Workshop on Transformers for Vision (T4V)."
 * **` April. 19th, 2024`**: The code along with the best checkpoints is released! The poster and video will be released shortly before CVPR 2024.
 
