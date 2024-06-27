@@ -174,3 +174,4 @@ This project has used code from the following projects:
 - [RVT](https://github.com/uzh-rpg/RVT) - Recurrent Vision Transformers for Object Detection with Event Cameras in PyTorch
 - [S4](https://github.com/state-spaces/s4) - Structured State Spaces for Sequence Modeling, in particular S4 and S4D models in PyTorch
 - [S5](https://github.com/lindermanlab/S5) - Simplified State Space Layers for Sequence Modeling in JAX
+- [S5 PyTorch](https://github.com/i404788/s5-pytorch) - S5 model in PyTorch
