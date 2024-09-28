@@ -1,4 +1,4 @@
-# State Space Models for Event Cameras (Spotlight)
+# [CVPR'24 Spotlight] State Space Models for Event Cameras
 <p align="center">
  <a href="https://www.youtube.com/watch?v=WRZZJn6Me9M">
   <img src="https://github.com/uzh-rpg/ssms_event_cameras/blob/master/scripts/zubic_cvpr2024_youtube.png" alt="youtube_video"/>
