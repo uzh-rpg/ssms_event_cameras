@@ -20,10 +20,12 @@ If you find this work and/or code useful, please cite our paper:
 
 ```bibtex
 @InProceedings{Zubic_2024_CVPR,
-  author  = {Zubi\'c, Nikola and Gehrig, Mathias and Scaramuzza, Davide},
-  title   = {State Space Models for Event Cameras},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year    = {2024},
+    author    = {Zubic, Nikola and Gehrig, Mathias and Scaramuzza, Davide},
+    title     = {State Space Models for Event Cameras},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {5819-5828}
 }
 ```
 
